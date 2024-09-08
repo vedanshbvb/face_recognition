@@ -1,0 +1,16 @@
+https://www.pyinstaller.org/
+
+1. pyinstaller yourprogram.py  ---> come with all dependencies
+2. pyinstaller --onefile yourprogram.py ---> without dependencies...
+3. pyinstaller --onefile -w yourprogram.py --->to hide cmd window it will be run automaticall when we run UI dialog
+so, with the help od -w we hide this cmd window
+
+4.for extra depependences --NSIS --> https://nsis.sourceforge.io/Download
+"dist" folder ko .zip ker do or ye file path nsis wale application me de do
+---option--- Installer based on .zip file
+it will convert into "dist.exe" file
+
+
+
+
+
